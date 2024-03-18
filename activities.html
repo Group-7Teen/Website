@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('a.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed; /* Ensure the background image stays fixed while scrolling */
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.8); /* Add a semi-transparent black overlay */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: rgba(0, 0, 0, 0.9); /* Add a semi-transparent black overlay */
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            transition: transform 0.3s ease;
+            display: inline-block;
+            font-size: 20px;
+        }
+        nav ul li a:hover{
+            transform: scale(1.1);
+            color: #ff8f8f;
+        }
+        section {
+            background-color: rgba(0, 0, 0, 0.75);
+            padding: 20px;
+            text-align: center;
+            color: #fff; /* Add text color for better contrast */
+        }
+        footer {
+            background-color: rgba(0, 0, 0, 0.8); /* Add a semi-transparent black overlay */
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Fatherless!</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="webpage.html">Home</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="reflections.html">Reflection</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h2>Activities</h2>
+    </section>
+    <footer>
+        <p>&copy; 2024 Fatherless. All rights reserved.</p>
+    </footer>
+</body>
+</html>
